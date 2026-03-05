@@ -42,7 +42,7 @@ Eu, enquanto **usuário autorizado**, quero poder **excluir cartões de atividad
 
 ---
 
-## 🎨 Interface e UX
+## Interface e UX
 * **Protótipo Navegável:** [Link para o Figma](https://www.figma.com/proto/...)
 * **Componente de Alerta:** Utilizar o padrão de modal `danger` (botão de confirmação em vermelho).
 

@@ -1,7 +1,7 @@
 <p align="center">
   <img src="assets/logo-cliente.png" width="150" />
   <br>
-  <strong>Escritório de Parcerias Estratégicas (EPE)</strong>
+  <strong>Ibrowse</strong>
 </p>
 
 # Portal de Documentação Técnica: Projeto IBLicita
