@@ -3,22 +3,21 @@ theme:
   name: material
   language: pt-BR
   palette:
-    # Configuração para o Modo Claro
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: deep orange
+      primary: deep-orange
       accent: orange
       toggle:
         icon: material/brightness-7
         name: Mudar para modo escuro
-    # Configuração para o Modo Escuro
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: deep orange
+      primary: deep-orange
       accent: orange
       toggle:
         icon: material/brightness-4
         name: Mudar para modo claro
+
 plugins:
   - search
   - with-pdf:
@@ -27,12 +26,14 @@ plugins:
       title_page: true
       output_path: documentacao-iblicita.pdf
       icon_config:
-        download_button: true # Cria um botão de download no site!
+        download_button: true
 
-# Se quiser que o nome do projeto no topo também seja laranja:
 extra_css:
   - stylesheets/extra.css
+
 nav:
   - Início: index.md
-  - Modulos:
+  - Módulos:
       - Exemplo de HU: exemplo/exemplo-hu.md
+  - Arquivos:
+      - Baixar PDF: documentacao-iblicita.pdf # Plan B: Link direto no menu
