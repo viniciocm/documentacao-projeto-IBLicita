@@ -9,7 +9,8 @@ last_updated: 2026-03-04
 # HU67 - Excluir Cartão de Atividade
 
 > **Aplicação:** Sistema de Gestão de Projetos de Parcerias (EPE)  
-> **Módulo:** Gestão de Projetos / Kanban
+> **Módulo:** Gestão de Projetos / Kanban  
+> **Funcionalidade:** XXXXX
 
 ## História
 Eu, enquanto **usuário autorizado**, quero poder **excluir cartões de atividades**, para remover tarefas que não são mais necessárias, movendo-as para a lixeira sem perder o histórico ou dados vinculados.
