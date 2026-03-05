@@ -1,4 +1,6 @@
 site_name: Documentação IBLicita
+site_description: Portal de Requisitos e Regras de Negócio - Projeto IBLicita # Resolve o "None"
+site_author: Vinicio Cerqueira
 theme:
   name: material
   language: pt-BR
@@ -23,10 +25,12 @@ plugins:
   - with-pdf:
       author: Vinicio Cerqueira
       copyright: IBLicita 2026
+      toc_title: "Sumário" # Traduz o "Table of Contents"
       title_page: true
       output_path: documentacao-iblicita.pdf
       icon_config:
         download_button: true
+      custom_template_path: !relative templates/ # Opcional: só se quiser customizar tudo
 
 extra_css:
   - stylesheets/extra.css
