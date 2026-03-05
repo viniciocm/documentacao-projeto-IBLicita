@@ -20,12 +20,12 @@ theme:
         icon: material/brightness-4
         name: Mudar para modo claro
 plugins:
-  - search # Mantém a barra de busca ativa
+  - search
   - with-pdf:
       author: Vinicio Cerqueira
       copyright: IBLicita 2026
       title_page: true
-      output_path: docs/projeto-iblicita.pdf
+      output_path: documentacao-iblicita.pdf
       icon_config:
         download_button: true # Cria um botão de download no site!
 

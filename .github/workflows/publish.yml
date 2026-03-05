@@ -3,10 +3,8 @@ on:
   push:
     branches:
       - main
-
 permissions:
   contents: write
-
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -15,5 +13,15 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: 3.x
-      - run: pip install mkdocs-material
-      - run: mkdocs gh-deploy --force
+
+      - name: Instalar Dependências do Sistema (Obrigatório para o PDF)
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libcairo2 libpango-1.0-0 libpangocairo-1.0-0 libgdk-pixbuf2.0-0 libffi-dev shared-mime-info
+
+      - name: Instalar MkDocs e Plugins
+        run: |
+          pip install mkdocs-material mkdocs-with-pdf
+
+      - name: Gerar Site e PDF
+        run: mkdocs gh-deploy --force
