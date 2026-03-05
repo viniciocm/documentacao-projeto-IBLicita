@@ -1,6 +1,25 @@
 site_name: Documentação IBLicita
 theme:
   name: material
+  language: pt-BR
+  palette:
+    # Opção para o modo claro (Light Mode)
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep orange
+      accent: amber
+      toggle:
+        icon: material/brightness-7
+        name: Mudar para modo escuro
+
+    # Opção para o modo escuro (Dark Mode)
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep orange
+      accent: amber
+      toggle:
+        icon: material/brightness-4
+        name: Mudar para modo claro
   logo: assets/logo-projeto.png
   favicon: assets/favicon.png # Opcional: ícone que aparece na aba do navegador
   palette: 
