@@ -11,12 +11,12 @@ last_updated: 2026-03-04
 > **Aplicação:** Sistema de Gestão de Projetos de Parcerias (EPE)  
 > **Módulo:** Gestão de Projetos / Kanban
 
-## 🎯 Objetivo da História
+## História
 Eu, enquanto **usuário autorizado**, quero poder **excluir cartões de atividades**, para remover tarefas que não são mais necessárias, movendo-as para a lixeira sem perder o histórico ou dados vinculados.
 
 ---
 
-## 📑 Critérios de Aceitação (CA)
+## Critérios de Aceitação (CA)
 
 ### CA01 — Confirmação de Exclusão
 - **Dado que** sou um usuário com permissão de "Excluir cartão";
@@ -32,7 +32,7 @@ Eu, enquanto **usuário autorizado**, quero poder **excluir cartões de atividad
 
 ---
 
-## ⚙️ Regras de Negócio (RN)
+## Regras de Negócio (RN)
 
 | ID | Regra | Descrição Técnica |
 | :--- | :--- | :--- |
@@ -51,7 +51,7 @@ Eu, enquanto **usuário autorizado**, quero poder **excluir cartões de atividad
 
 ---
 
-## 🔄 Histórico de Alterações
+## Histórico de Alterações
 
 | Data | Autor | Versão | Descrição |
 | :--- | :--- | :--- | :--- |

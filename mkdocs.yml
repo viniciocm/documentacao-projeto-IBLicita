@@ -20,10 +20,10 @@ theme:
         icon: material/brightness-4
         name: Mudar para modo claro
 
-# Se você quiser que o nome do projeto no topo também seja laranja:
+# Se quiser que o nome do projeto no topo também seja laranja:
 extra_css:
   - stylesheets/extra.css
 nav:
   - Início: index.md
   - Modulos:
-      - Exemplo de HU: exemplo-hu.md
+      - Exemplo de HU: exemplo/exemplo-hu.md
