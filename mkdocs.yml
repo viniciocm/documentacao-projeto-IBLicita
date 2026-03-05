@@ -25,5 +25,5 @@ extra_css:
   - stylesheets/extra.css
 nav:
   - Início: index.md
-  - Módulo Login:
-      - Especificação: modulo-login/especificacao-login.md
+  - Modulos:
+      - Exemplo de HU: exemplo-hu.md
