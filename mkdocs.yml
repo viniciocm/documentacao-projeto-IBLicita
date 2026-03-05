@@ -1,6 +1,10 @@
 site_name: Documentação IBLicita
 theme:
   name: material
+  logo: assets/logo-projeto.png
+  favicon: assets/favicon.png # Opcional: ícone que aparece na aba do navegador
+  palette: 
+    primary: indigo # Você pode escolher a cor que mais combina com o cliente
 
 nav:
   - Início: index.md
