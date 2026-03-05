@@ -3,28 +3,26 @@ theme:
   name: material
   language: pt-BR
   palette:
-    # Opção para o modo claro (Light Mode)
+    # Configuração para o Modo Claro
     - media: "(prefers-color-scheme: light)"
       scheme: default
       primary: deep orange
-      accent: amber
+      accent: orange
       toggle:
         icon: material/brightness-7
         name: Mudar para modo escuro
-
-    # Opção para o modo escuro (Dark Mode)
+    # Configuração para o Modo Escuro
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: deep orange
-      accent: amber
+      accent: orange
       toggle:
         icon: material/brightness-4
         name: Mudar para modo claro
-  logo: assets/logo-projeto.png
-  favicon: assets/favicon.png # Opcional: ícone que aparece na aba do navegador
-  palette: 
-    primary: indigo # Você pode escolher a cor que mais combina com o cliente
 
+# Se você quiser que o nome do projeto no topo também seja laranja:
+extra_css:
+  - stylesheets/extra.css
 nav:
   - Início: index.md
   - Módulo Login:
