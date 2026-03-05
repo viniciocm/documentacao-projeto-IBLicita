@@ -19,6 +19,15 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Mudar para modo claro
+plugins:
+  - search # Mantém a barra de busca ativa
+  - with-pdf:
+      author: Vinicio Cerqueira
+      copyright: IBLicita 2026
+      title_page: true
+      output_path: docs/projeto-iblicita.pdf
+      icon_config:
+        download_button: true # Cria um botão de download no site!
 
 # Se quiser que o nome do projeto no topo também seja laranja:
 extra_css:
